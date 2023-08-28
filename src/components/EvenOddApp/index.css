@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 100%;
+  max-width: 500px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+.count {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 40px;
+}
+.even-odd {
+  color: #334155;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+}
+.increament {
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 30px;
+  cursor: pointer;
+  outline: none;
+}
+.tip {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 12px;
+}
